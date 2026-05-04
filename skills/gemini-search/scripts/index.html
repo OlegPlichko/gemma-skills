@@ -36,7 +36,7 @@ limitations under the License.
                     return JSON.stringify({ error: 'No Gemini API key provided. Please enter your API key.' });
                 }
 
-                const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=${apiKey}`;
+                const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
 
                 const groundedPrompt = [
                     'Answer the user\'s question directly using current Google Search grounding.',
